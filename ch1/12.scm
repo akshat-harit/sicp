@@ -1,4 +1,4 @@
-#lang racket
+#lang sicp
 (define (pascal-triangle r c)
   (cond ((= c 1) 1)
         ((= r c) 1)
